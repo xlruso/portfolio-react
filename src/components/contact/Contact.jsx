@@ -1,6 +1,7 @@
 import React from 'react'
 import './contact.css'
 import {MdOutlineEmail} from 'react-icons/md'
+import {FiSend} from 'react-icons/fi'
 
 const contact = () => {
   return (
@@ -21,7 +22,7 @@ const contact = () => {
           <input type="text" name='name' placeholder='Tu Nombre Completo' required />
           <input type="email" name='email' placeholder='Tu Email' required/>
           <textarea name="message" rows="7" placeholder='Tu Mensaje' required></textarea>
-          <button type='submite' className='btn btn-primary'>Enviar Mensaje</button>
+          <button type='submite' className='btn btn-primary'> <FiSend/> Enviar Mensaje</button>
         </form>
       </div>
     </section>
